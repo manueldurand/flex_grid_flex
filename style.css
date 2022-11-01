@@ -1,0 +1,54 @@
+body{
+    width: 700px;
+    height: 600px;
+}
+.grille{
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template: repeat(4, 50px) / repeat(9, 50px);
+    gap: 10px;
+}
+.bande_rouge{
+    background-color: rgb(235, 12, 12);
+    grid-column: 1 / 10;
+    grid-row: 1 / 1;
+
+}
+.carre_violet1{
+background-color: blueviolet;
+grid-area: 2 / 1;
+}
+.carre_violet2{
+    background-color: blueviolet;
+    grid-area: 2 / 3;
+}
+.carre_violet3{
+    background-color: blueviolet;
+    grid-area: 2 / 5;
+}
+.carre_violet4{
+    background-color: blueviolet;
+    grid-area: 2 / 7;
+}.carre_violet5{
+    background-color: blueviolet;
+    grid-area: 2 / 9;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    grid-column: 1 / 10;
+    grid-row: 3 / 3;
+}
+.carre_bleu{
+    background-color: rgb(1, 157, 223);
+    width: 50px;
+margin-left: 10px;
+}
+.bande_jaune{
+background-color: rgb(232, 189, 17);
+grid-area: 4 / 2 / 4 / 9;
+}
+
+
